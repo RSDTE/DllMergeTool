@@ -11,7 +11,7 @@ namespace DllMergeTool.ViewModels
 {
     public class MessageViewModel : Screen, IModule
     {
-        public MessageViewModel([Import]IWindowManager windowManager)
+        public MessageViewModel(IWindowManager windowManager)
         {
             this.windowManager = windowManager;
         }
